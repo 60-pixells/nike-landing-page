@@ -1,20 +1,11 @@
 import React from "react";
 import nikeIcon from "../assets/brand_logo.png";
-
+import "../App.css"
 
 export default function NavBar() {
     return (
         <div>
-            <nav style={{ display: "flex",
-             justifyContent: "space-around",
-             alignItems: "center",
-             height: "72px"
-             }}>
-                <img src = {nikeIcon}
-                alt = "nike icon"
-                width={76}
-                height={42.75}
-                />
+            <nav className="nav-bar">
 
                 <ul
                 style={{ 
