@@ -7,14 +7,7 @@ export default function NavBar() {
         <div>
             <nav className="nav-bar">
 
-                <ul
-                style={{ 
-                    textDecoration: "none",
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "space-between",
-                    width: "330px"
-                }}
+                <ul className="ui-list"
                 >
                     <li style={{
                         listStyle: "none"

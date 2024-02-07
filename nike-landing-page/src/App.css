@@ -35,6 +35,14 @@
   height: "72px";
 }
 
+.ui-list {
+  text-decoration: "none";
+  display: "flex";
+  align-items: "center";
+  justify-content:"space-between";
+  width: "330px";
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
