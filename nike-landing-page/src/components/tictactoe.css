@@ -1,0 +1,21 @@
+h1 {
+    color: brown;
+}
+
+.grid-container {
+    display: grid;
+    width: 300px;
+    height: 300px;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px;
+    border: 2px solid black;
+}
+
+.grid-item {
+    border: 2px solid red;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
